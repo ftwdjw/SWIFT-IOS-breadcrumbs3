@@ -14,6 +14,7 @@
 		07BF79BB1C4FD3FA00813481 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 07BF79B91C4FD3FA00813481 /* LaunchScreen.storyboard */; };
 		07BF79C31C4FD42B00813481 /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 07BF79C21C4FD42B00813481 /* MapKit.framework */; };
 		07BF79C51C4FD44400813481 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 07BF79C41C4FD44400813481 /* CoreLocation.framework */; };
+		1B528C661D2D758F00C5291D /* ReadMe.rtf in Resources */ = {isa = PBXBuildFile; fileRef = 1B528C651D2D758F00C5291D /* ReadMe.rtf */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +27,7 @@
 		07BF79BC1C4FD3FA00813481 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		07BF79C21C4FD42B00813481 /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
 		07BF79C41C4FD44400813481 /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		1B528C651D2D758F00C5291D /* ReadMe.rtf */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.rtf; path = ReadMe.rtf; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -65,6 +67,7 @@
 				07BF79B41C4FD3FA00813481 /* Main.storyboard */,
 				07BF79B01C4FD3FA00813481 /* AppDelegate.swift */,
 				07BF79B21C4FD3FA00813481 /* ViewController.swift */,
+				1B528C651D2D758F00C5291D /* ReadMe.rtf */,
 				07BF79B71C4FD3FA00813481 /* Assets.xcassets */,
 				07BF79B91C4FD3FA00813481 /* LaunchScreen.storyboard */,
 				07BF79BC1C4FD3FA00813481 /* Info.plist */,
@@ -137,6 +140,7 @@
 			files = (
 				07BF79BB1C4FD3FA00813481 /* LaunchScreen.storyboard in Resources */,
 				07BF79B81C4FD3FA00813481 /* Assets.xcassets in Resources */,
+				1B528C661D2D758F00C5291D /* ReadMe.rtf in Resources */,
 				07BF79B61C4FD3FA00813481 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -297,6 +301,7 @@
 				07BF79C11C4FD3FA00813481 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
