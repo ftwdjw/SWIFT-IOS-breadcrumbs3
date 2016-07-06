@@ -192,9 +192,10 @@ class ViewController: UIViewController, CLLocationManagerDelegate, MKMapViewDele
             
             //Live Map
             mapView.showsUserLocation = true
-            mapView.userTrackingMode = .Follow
+            mapView.userTrackingMode = .None
             mapView.showsTraffic = true
             mapView.delegate = self
+            self.locationManager.stopUpdatingLocation()
             
         case .LiveMapLogging:
             //Buttons
@@ -232,8 +233,14 @@ class ViewController: UIViewController, CLLocationManagerDelegate, MKMapViewDele
         let center = CLLocationCoordinate2D(latitude: location!.coordinate.latitude, longitude: location!.coordinate.longitude)
         let region = MKCoordinateRegion(center: center, span: MKCoordinateSpan(latitudeDelta: 0.001, longitudeDelta: 0.001))
         self.mapView.setRegion(region, animated: true)
-        self.locationManager.stopUpdatingLocation()
+        //self.locationManager.stopUpdatingLocation()
     }
+    
+    func locationManager(manager: CLLocationManager, didFailWithError error:
+        NSError)
+     {
+     print("Error: " + error.localizedDescription)
+     }
 
 
 }//end VC
